@@ -7,10 +7,13 @@ atm-documents
 
 environment 
 java 8 
+maven
 
 navigate until root dircetory : ATMDEMO-master
 
 then below command
+
+mvn clean install
 
 java -jar target/AtmDemo-0.0.1-SNAPSHOT.jar
 
